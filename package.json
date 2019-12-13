@@ -23,7 +23,8 @@
     "applicative:recap:simple": "tsc && node src/examples/applicative-recap-simple.js",
     "monad": "tsc && node src/examples/monad.js",
     "reftransparency": "tsc && node src/examples/reftransparency.js",
-    "reftransparency2": "tsc && node src/examples/reftransparency2.js"
+    "reftransparency2": "tsc && node src/examples/reftransparency2.js",
+    "finalBoss": "tsc && node src/examples/finalBoss.js"
   },
   "repository": {
     "type": "git",
