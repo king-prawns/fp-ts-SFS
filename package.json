@@ -1,0 +1,44 @@
+{
+  "name": "learn-fp-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node src/index.js",
+    "semigroup": "tsc && node src/examples/semigroup.js",
+    "eq": "tsc && node src/examples/eq.js",
+    "ord": "tsc && node src/examples/ord.js",
+    "semigroup:recap": "tsc && node src/examples/semigroup-recap.js",
+    "semigroup:recap2": "tsc && node src/examples/semigroup-recap-2.js",
+    "monoid": "tsc && node src/examples/monoid.js",
+    "monoid:recap": "tsc && node src/examples/monoid-recap.js",
+    "adt": "tsc && node src/examples/adt.js",
+    "category": "tsc && node src/examples/category.js",
+    "funtor": "tsc && node src/examples/funtor.js",
+    "currying": "tsc && node src/examples/currying.js",
+    "apply": "tsc && node src/examples/apply.js",
+    "applicative": "tsc && node src/examples/applicative.js",
+    "lifting": "tsc && node src/examples/lifting.js",
+    "applicative:recap": "tsc && node src/examples/applicative-recap.js",
+    "applicative:recap:simple": "tsc && node src/examples/applicative-recap-simple.js",
+    "monad": "tsc && node src/examples/monad.js",
+    "reftransparency": "tsc && node src/examples/reftransparency.js",
+    "reftransparency2": "tsc && node src/examples/reftransparency2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/king-prawns/learn-fp-ts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/king-prawns/learn-fp-ts#readme",
+  "dependencies": {
+    "fp-ts": "2.1.1",
+    "io-ts": "2.0.1",
+    "react": "16.12.0",
+    "typescript": "3.6.4"
+  },
+  "devDependencies": {
+    "@types/react": "16.9.11"
+  }
+}
